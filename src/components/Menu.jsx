@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import MenuList from "./MenuList";
+import Appetizers from "./Appetizers";
+import Entrees from "./Entrees";
+import Desserts from "./Desserts";
+import Drinks from "./Drinks";
 
 const Menu = () => {
   return (
     <div>
-        <h1>Menu</h1>
+      <Appetizers array={MenuList} />
+      <Entrees array={MenuList} />
+      <Desserts array={MenuList} />
+      <Drinks array={MenuList} />
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
