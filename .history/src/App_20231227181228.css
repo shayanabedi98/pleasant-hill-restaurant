@@ -1,16 +1,14 @@
+/* .navbar {
 
+} */
 
 body {
   padding: 0px;
   margin: 0px;
 }
 
-.contact, .menu {
-  margin-top: 270px;
-}
+.home {
 
-.menu h1 {
-  margin: 0;
 }
 
 .navbar {
@@ -24,7 +22,6 @@ body {
   z-index: 2;
   position: fixed;
   width: 100%;
-  top: 0;
 }
 
 .navbar ul li {

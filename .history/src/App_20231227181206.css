@@ -1,16 +1,10 @@
+/* .navbar {
 
+} */
 
 body {
   padding: 0px;
   margin: 0px;
-}
-
-.contact, .menu {
-  margin-top: 270px;
-}
-
-.menu h1 {
-  margin: 0;
 }
 
 .navbar {
@@ -23,8 +17,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 2;
   position: fixed;
-  width: 100%;
-  top: 0;
 }
 
 .navbar ul li {
