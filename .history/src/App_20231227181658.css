@@ -5,8 +5,8 @@ body {
   margin: 0px;
 }
 
-.contact, .menu {
-  margin-top: 270px;
+.home, .contact, .menu {
+  margin-top: 200px;
 }
 
 .menu h1 {

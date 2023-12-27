@@ -1,31 +1,6 @@
+/* .navbar {
 
-
-body {
-  padding: 0px;
-  margin: 0px;
-}
-
-.contact, .menu {
-  margin-top: 270px;
-}
-
-.menu h1 {
-  margin: 0;
-}
-
-.navbar {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
-  align-content: center;
-  height: 120px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  z-index: 2;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
+} */
 
 .navbar ul li {
   list-style: none;
@@ -37,8 +12,8 @@ body {
 
 .navbar ul {
   display: grid;
-  width: 70%;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
   padding: 0px;
   margin: 0px;
   
@@ -49,7 +24,10 @@ body {
   background-color: #aa9c66;
 }
 
-
+body {
+  padding: 0px;
+  margin: 0px;
+}
 
 .menu {
   
