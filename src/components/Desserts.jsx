@@ -4,11 +4,11 @@ export default function Desserts({array}) {
     <div>
       <h2>Desserts</h2>
     </div>
-    <div>
+    <div className="card-container">
       {array.map((item) => {
         if (item.type === "Dessert")
           return (
-            <div key={item.id}>
+            <div className="card" key={item.id}>
               <img className="menu-imgs" src={item.img} />
               <h3 className="menu-names">{item.name}</h3>
               <p className="menu-desc">{item.description}</p>
