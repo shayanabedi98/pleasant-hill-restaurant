@@ -5,8 +5,8 @@ body {
   margin: 0px;
 }
 
-.contact, .menu {
-  margin-top: 270px;
+.home, .contact, .menu {
+  margin-top: 300px;
 }
 
 .menu h1 {
@@ -128,32 +128,4 @@ body {
   font-size: 23px;
   width: 1200px;
   margin: 70px auto;
-}
-
-
-.contact h1 {
-  text-align: center;
-  width: 1200px;
-  font-size: 45px;
-  margin: 70px auto;
-  text-decoration: underline;
-
-}
-
-.contact h2 {
-  text-align: center;
-  margin: 1px auto;
-  width: 1200px;
-}
-
-.contact h3 {
-  text-align: center;
-  margin: 40px auto;
-}
-
-.iframe-div {
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
