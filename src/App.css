@@ -221,3 +221,62 @@ body {
   align-items: center;
   height: 400px;
 }
+
+
+
+@media only screen and (max-width: 1300px) {
+  .about {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about1, .about2 {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+    
+  }
+
+  .about1 {
+    margin: 0;
+    padding-top: 50px;
+  }
+  
+  .about1 img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .about1 h2 {
+    font-size: 20px;
+    margin: 50px 40px 40px 40px;
+    text-align: center;
+  }
+
+  .about2 img {
+    order: -1;
+    width: 600px;
+    height: 400px;
+  }
+
+  .about2 p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .banner-content {
+    width: 100%;
+  }
+
+  .home {
+    width: 100%;
+  }
+
+  .home h1 {
+    font-size: 45px;
+  }
+
+  .banner-buttons button {
+    width: 170px;
+  }
+  
+}
