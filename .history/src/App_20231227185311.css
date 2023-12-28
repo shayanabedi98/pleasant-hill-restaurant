@@ -11,6 +11,10 @@ body {
   margin: 0px;
 }
 
+.contact, .menu {
+  margin-top: 180px;
+}
+
 .navbar {
   background-color: black;
   display: grid;
@@ -27,7 +31,7 @@ body {
 
 .navbar ul li {
   list-style: none;
-  font-size: 24px;
+  font-size: 40px;
   text-align: center;
   color: rgb(245, 245, 232);
   background-color: black;
@@ -79,39 +83,6 @@ body {
   color: #ffffff;
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-
-.about {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  width: 1220px;
-  margin: 70px auto;
-  padding: 40px;
-  text-align: start;
-  background-color: #f0f0f0;
-}
-
-.about1, .about2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
-  width: 1200px;
-  margin: 70px auto;
-  padding: 25px;
-  line-height: 35px;
-}
-
-.about img {
-  height: 550px;
-  width: 550px;
-  object-fit: cover;
-}
-
-.menu {
-  background-color: #aa9c662f;
-  width: 1220px;
-  padding: 40px;
-  margin: 120px auto;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .card-container {
@@ -179,6 +150,7 @@ body {
 .menu h1 {
   text-align: center;
   font-size: 40px;
+
 }
 
 .menu-top-p {

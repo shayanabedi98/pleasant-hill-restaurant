@@ -11,6 +11,10 @@ body {
   margin: 0px;
 }
 
+.contact, .menu {
+  margin-top: 180px;
+}
+
 .navbar {
   background-color: black;
   display: grid;
@@ -83,11 +87,11 @@ body {
 
 .about {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  width: 1220px;
+  width: 1200px;
   margin: 70px auto;
-  padding: 40px;
+  padding: 25px;
   text-align: start;
-  background-color: #f0f0f0;
+  background-color: #aa9c66;
 }
 
 .about1, .about2 {
@@ -97,21 +101,12 @@ body {
   width: 1200px;
   margin: 70px auto;
   padding: 25px;
-  line-height: 35px;
 }
 
 .about img {
   height: 550px;
   width: 550px;
   object-fit: cover;
-}
-
-.menu {
-  background-color: #aa9c662f;
-  width: 1220px;
-  padding: 40px;
-  margin: 120px auto;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .card-container {
@@ -179,6 +174,7 @@ body {
 .menu h1 {
   text-align: center;
   font-size: 40px;
+
 }
 
 .menu-top-p {
