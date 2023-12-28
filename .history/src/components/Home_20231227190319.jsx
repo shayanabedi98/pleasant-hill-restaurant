@@ -16,7 +16,7 @@ const Home = () => {
       <div className="about">
         <div className='about1'>
           <img src={aboutImg} alt="zoomed in picture of a dining table with utensils" />
-          <h2>Indulge in the Epitome of Gastronomic Luxury at The Pleasant Hill, Toronto's premier dining establishment where every dish promises an adventure for the senses. Experience the pinnacle of culinary artistry in the heart of Ontario. Each dish is a masterpiece, composed of the finest locally-sourced ingredients and presented with the elegance worthy of royalty.</h2>
+          <h2>Indulge in the Epitome of Gastronomic Luxury at The Pleasant Hill, Toronto's premier dining establishment where every dish promises an adventure for the senses. Experience the pinnacle of culinary artistry in the heart of Ontario.</h2>
         </div>
 
         <div className="about2">
