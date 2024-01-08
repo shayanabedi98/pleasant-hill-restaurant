@@ -1,6 +1,6 @@
 export default function Entrees({array}) {
   return (
-    <div>
+    <div className="entree-container">
     <div>
       <h2>Entrees</h2>
     </div>

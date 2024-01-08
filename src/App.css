@@ -183,7 +183,7 @@ body {
   text-align: center;
   font-size: 23px;
   width: 1200px;
-  margin: 70px auto;
+  margin: 70px 0 55px;
 }
 
 .contact {
@@ -278,5 +278,80 @@ body {
   .banner-buttons button {
     width: 170px;
   }
+
+  .about1 {
+    margin: 0 auto;
+  }
+
+  .menu {
+    padding: 10px;
+    margin: 120px auto;
+    width: 90%;
+  }
+
+  .card {
+    width: 350px;
+    min-height: 380px;
+    cursor: pointer;
+  }
+
+  .menu-imgs {
+    width: 250px;
+    height: 250px;
+
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .menu-top-p {
+    width: 90%;
+    padding: 0 20px 0 20px;
+    margin: 70px auto 100px auto;
+
+  }
   
+  .menu-names {
+    font-size: 21px;
+  }
+
+  .menu-desc {
+    font-size: 15px;
+    width: 80%;
+    margin: 11px 0;
+  }
 }
+
+@media only screen and (max-width: 1200px) {
+ .banner-content {
+  width: 100%;
+ } 
+
+ .home {
+  width: 100%;
+ }
+
+ .about1 {
+  width: 90%;
+ }
+
+ .about2 {
+  width: 90%;
+
+ }
+
+.about1 h2 {
+  width: 80%;
+
+}
+
+.about2 p {
+  width: 90%;
+}
+
+}
+
+
