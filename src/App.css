@@ -1,5 +1,5 @@
 * {
-  font-family: 'Italiana', sans-serif;
+  font-family: "Italiana", sans-serif;
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -37,7 +37,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0px;
   margin: 0px;
-  
 }
 
 .navbar ul li:hover {
@@ -46,7 +45,7 @@ body {
 }
 
 .banner-content {
-  background: url('./assets/banner.jpg');
+  background: url("./assets/banner.jpg");
   background-attachment: fixed;
   height: 980px;
   display: grid;
@@ -76,11 +75,13 @@ body {
   background-color: #aa9c66;
   color: #ffffff;
   cursor: pointer;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .about {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   width: 1220px;
   margin: 70px auto;
   padding: 40px;
@@ -88,7 +89,8 @@ body {
   background-color: #f0f0f0;
 }
 
-.about1, .about2 {
+.about1,
+.about2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
@@ -109,7 +111,8 @@ body {
   width: 1220px;
   padding: 40px;
   margin: 120px auto;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .card-container {
@@ -132,7 +135,7 @@ body {
   text-align: center;
   font-weight: 600;
   padding-left: 20px;
-  padding-right: 20px
+  padding-right: 20px;
 }
 
 .menu-names {
@@ -145,7 +148,8 @@ body {
   width: 370px;
   min-height: 400px;
   cursor: pointer;
-  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
   transition: all ease 200ms;
   display: grid;
   place-items: center;
@@ -153,17 +157,18 @@ body {
   background-color: black;
   border-radius: 1rem;
   overflow: hidden;
-
 }
 
 .card:hover {
   cursor: pointer;
   transform: scale(1.03);
-  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
 
-
-.menu-desc, .menu-names {
+.menu-desc,
+.menu-names {
   background-color: black;
 }
 
@@ -171,7 +176,6 @@ body {
   text-align: center;
   font-size: 35px;
   margin: 60px 0 60px 0;
-
 }
 
 .menu h1 {
@@ -190,28 +194,92 @@ body {
   background-color: #f0f0f0;
   width: 1200px;
   margin: 100px auto;
-  height: 730px;
+  height: 1430px;
   padding: 40px;
+  text-align: center;
 }
-
 
 .contact h1 {
   text-align: center;
   width: 1200px;
   font-size: 40px;
-
 }
 
-.contact h2 {
-  text-align: center;
-  margin: 50px auto;
-  width: 1000px;
-  font-size: 20px;
-}
-
+.contact p,
+.contact h2,
 .contact h3 {
-  text-align: center;
-  margin: 40px auto;
+  text-align: start;
+  width: 800px;
+  margin: 50px auto;
+}
+
+.contact input {
+  margin: 10px auto;
+  width: 320px;
+  height: 20px;
+  text-align: start;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  font-family: sans-serif;
+  display: block;
+}
+
+.react-datepicker__header {
+  background-color: #f0ce38;
+  color: white;
+}
+
+.react-datepicker__day-name {
+  color: #333;
+}
+.react-datepicker__day,
+.react-datepicker__day-name {
+  width: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0.166rem;
+  border-radius: 50%;
+}
+
+.react-datepicker__day--selected {
+  background-color: #c2ab4f;
+  color: white;
+}
+
+.react-datepicker__day:hover {
+  background-color: #aa9c66;
+}
+
+.react-datepicker__time-container {
+  width: 120px;
+}
+
+.react-datepicker__time-box {
+  width: 120px !important;
+}
+
+.contact .info {
+  margin: 10px auto;
+  width: 320px;
+  height: 20px;
+  text-align: start;
+  padding: 10px;
+}
+
+.contact .book {
+  height: 40px;
+  width: 205px;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: rgb(255, 198, 93);
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 3px;
+  display: block;
+  margin: 10px auto;
 }
 
 .iframe-div {
@@ -234,24 +302,23 @@ body {
   margin: 5px;
 }
 
-
 @media only screen and (max-width: 1300px) {
   .about {
     width: 100%;
     padding: 0;
   }
 
-  .about1, .about2 {
+  .about1,
+  .about2 {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: none;
-    
   }
 
   .about1 {
-    margin: 0;
+    margin: 0 auto;
     padding-top: 50px;
   }
-  
+
   .about1 img {
     width: 500px;
     height: 300px;
@@ -337,32 +404,32 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
- .banner-content {
-  width: 100%;
- } 
 
- .home {
-  width: 100%;
- }
+   .banner-content {
+    width: 100%;
+   } 
 
- .about1 {
-  width: 90%;
- }
+   .home {
+    width: 100%;
+   }
 
- .about2 {
-  width: 90%;
+   .about1 {
+    width: 90%;
+   }
 
- }
+   .about2 {
+    width: 90%;
 
-.about1 h2 {
-  width: 80%;
+   }
 
-}
+  .about1 h2 {
+    width: 80%;
 
-.about2 p {
-  width: 90%;
-}
+  }
 
+  .about2 p {
+    width: 90%;
+  }
 }
 
 
