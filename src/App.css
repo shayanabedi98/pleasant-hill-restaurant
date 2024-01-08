@@ -183,7 +183,7 @@ body {
   text-align: center;
   font-size: 23px;
   width: 1200px;
-  margin: 70px auto;
+  margin: 70px 0 55px;
 }
 
 .contact {
@@ -222,6 +222,17 @@ body {
   height: 400px;
 }
 
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 4px;
+  margin: 5px;
+}
 
 
 @media only screen and (max-width: 1300px) {
@@ -278,5 +289,121 @@ body {
   .banner-buttons button {
     width: 170px;
   }
+
+  .about1 {
+    margin: 0 auto;
+  }
+
+  .menu {
+    padding: 10px;
+    margin: 120px auto;
+    width: 90%;
+  }
+
+  .card {
+    width: 350px;
+    min-height: 380px;
+    cursor: pointer;
+  }
+
+  .menu-imgs {
+    width: 250px;
+    height: 250px;
+
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .menu-top-p {
+    width: 90%;
+    padding: 0 20px 0 20px;
+    margin: 70px auto 100px auto;
+
+  }
   
+  .menu-names {
+    font-size: 21px;
+  }
+
+  .menu-desc {
+    font-size: 15px;
+    width: 80%;
+    margin: 11px 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+ .banner-content {
+  width: 100%;
+ } 
+
+ .home {
+  width: 100%;
+ }
+
+ .about1 {
+  width: 90%;
+ }
+
+ .about2 {
+  width: 90%;
+
+ }
+
+.about1 h2 {
+  width: 80%;
+
+}
+
+.about2 p {
+  width: 90%;
+}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    left: 90%;
+  }
+
+  .navbar {
+    position: relative;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+  }
+
+  .navbar img {
+    position: absolute;
+  }
+
+
+  .hamburger-menu .bar {
+    background-color: rgba(255, 255, 255, 0.863);  
+  }
+
+  .navbar ul {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    place-items: center;
+  }
+
+  .navbar li {
+    align-content: center;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
 }

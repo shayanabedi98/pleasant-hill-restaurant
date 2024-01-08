@@ -1,6 +1,6 @@
 export default function Desserts({array}) {
   return (
-    <div>
+    <div className="dessert-container">
     <div>
       <h2>Desserts</h2>
     </div>

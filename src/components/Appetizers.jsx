@@ -1,8 +1,9 @@
 export default function Appetizers({array}) {
   return (
+    <div className="appetizer-container">
     <div>
-    <div>
-      <h2>Appetizers</h2>
+    <hr></hr>
+      <h2 >Appetizers</h2>
     </div>
     <div className="card-container">
       {array.map((item) => {
