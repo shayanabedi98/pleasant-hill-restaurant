@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import aboutImg from '../assets/about.jpg'
 import toronto from '../assets/toronto.jpg'
 import '../assets/banner.jpg'
 
+
+
 const Home = () => {
-  return (
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+    return (
     <div className='home'>
       <div className='banner-content'>
         <h1>Dine in luxury at The Pleasant Hill</h1>

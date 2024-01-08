@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const Contact = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const [startDate, setStartDate] = useState("");
   const [info, setInfo] = useState({ name: "", email: "" });
   const [booked, setBooked] = useState(false);
