@@ -473,4 +473,124 @@ body {
     justify-content: center;
     height: 100px;
   }
+
+  .banner-content h1 {
+    width: 85%;
+    text-align: center;
+    top: 140px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .menu-imgs {
+    height: 200px;
+    width: 200px;
+  }
+
+  .menu-desc {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .banner-content h1 {
+    width: 85%;
+    text-align: center;
+    top: 140px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .menu-imgs {
+    height: 170px;
+    width: 170px;
+  }
+
+  .menu-names {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .menu-desc {
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .banner-content h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 40px;
+    top: 75px;
+  }
+
+  .about2 img {
+    width: 85%;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-imgs {
+    width: 250px;
+    height: 250px;
+  }
+
+  .menu-names {
+    font-size: 25px;
+  }
+
+  .menu-desc {
+    font-size: 17px;
+    top: 5px;
+  }
+
+  .card {
+    width: 75%;
+  }
+
+  .navbar img {
+    width: 350px;
+    left: 5px;
+  }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+  .navbar img {
+    width: 250px;
+  }
+
+  .about1 img {
+    width: 90%;
+  }
+
+  .about2 img {
+    width: 90%;
+  }
+
+  .about1 {
+    margin: auto;
+  }
+
+  .about2  {
+    margin: 0 auto;
+  }
+
+  .about1, .about2 {
+    grid-template-rows: .8fr .8fr;
+    padding: 5px 5px 5px 5px;
+  }
+
 }
