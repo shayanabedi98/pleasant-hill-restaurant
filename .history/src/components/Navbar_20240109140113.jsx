@@ -3,15 +3,12 @@ import logo from "../assets/logo2.png";
 
 const Navbar = ({ onClick }) => {
   const [menuOpen, setMenuOpen] = useState(true);
-  const media = window.matchMedia('(max-width: 800px)').matches
 
   useEffect(() => {
-    if (media) {
+    if (window.matchMedia('(max-width: 800px)').matches) {
       setMenuOpen(false)
-    } else {
-      setMenuOpen(true)
     }
-  }, [media, setMenuOpen])
+  }, [])
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);

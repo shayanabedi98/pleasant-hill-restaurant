@@ -3,9 +3,9 @@ import logo from "../assets/logo2.png";
 
 const Navbar = ({ onClick }) => {
   const [menuOpen, setMenuOpen] = useState(true);
-  const media = window.matchMedia('(max-width: 800px)').matches
 
   useEffect(() => {
+    const media = window.matchMedia('(max-width: 800px)').matches
     if (media) {
       setMenuOpen(false)
     } else {
