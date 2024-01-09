@@ -6,6 +6,7 @@ const Navbar = ({ onClick }) => {
   const media = window.matchMedia('(max-width: 800px)').matches
 
   useEffect(() => {
+
     if (media) {
       setMenuOpen(false)
     } else {
