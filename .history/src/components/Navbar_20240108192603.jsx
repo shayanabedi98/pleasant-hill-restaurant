@@ -2,11 +2,20 @@ import React, { useState } from "react";
 import logo from "../assets/logo2.png";
 
 const Navbar = ({ onClick }) => {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(true)
+
+  useEffect(() => {
+    const windowChanged = () => {
+      if (window.matchMedia('(max-width: 800px)')) {
+        setMenuOpen(false)
+      }  
+    }
+  }, [])
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
 
   return (
     <div className="navbar">

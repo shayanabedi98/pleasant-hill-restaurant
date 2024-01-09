@@ -460,13 +460,15 @@ body {
     height: 100px;
     width: 100%;
     position: relative;
-    top: 110px;
+    top: 100px;
     place-items: center;
+    height: 200px;
   }
 
-  .navbar ul li {
+  .navbar li {
     align-content: center;
     width: 100%;
+    margin-top: 20px;
     position: relative;
     display: flex;
     align-items: center;

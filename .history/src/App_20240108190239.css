@@ -37,7 +37,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0px;
   margin: 0px;
-  background-color: black;
 }
 
 .navbar ul li:hover {
@@ -292,7 +291,7 @@ body {
 }
 
 .hamburger-menu {
-  display: none;
+
   cursor: pointer;
 
 }
@@ -460,13 +459,14 @@ body {
     height: 100px;
     width: 100%;
     position: relative;
-    top: 110px;
+    top: 100px;
     place-items: center;
   }
 
-  .navbar ul li {
+  .navbar li {
     align-content: center;
     width: 100%;
+    margin-top: 20px;
     position: relative;
     display: flex;
     align-items: center;

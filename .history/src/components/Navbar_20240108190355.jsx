@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/logo2.png";
 
 const Navbar = ({ onClick }) => {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -11,7 +11,7 @@ const Navbar = ({ onClick }) => {
   return (
     <div className="navbar">
       <img src={logo} alt="" />
-      {menuOpen && (
+      {!menuOpen && (
         <ul>
           <li onClick={() => onClick("home")}>Home</li>
           <li onClick={() => onClick("menu")}>Menu</li>

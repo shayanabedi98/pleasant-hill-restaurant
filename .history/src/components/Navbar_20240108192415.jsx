@@ -4,9 +4,15 @@ import logo from "../assets/logo2.png";
 const Navbar = ({ onClick }) => {
   const [menuOpen, setMenuOpen] = useState(true);
 
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  if (window.matchMedia('(max-width: 800px)')) {
+    setMenuOpen(false)
+  }
+
 
   return (
     <div className="navbar">

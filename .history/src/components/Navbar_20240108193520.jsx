@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import logo from "../assets/logo2.png";
 
 const Navbar = ({ onClick }) => {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
+  const []
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMobileMenuOpen(!menuOpen);
   };
 
   return (
     <div className="navbar">
       <img src={logo} alt="" />
-      {menuOpen && (
+      {mobileMenuOpen && (
         <ul>
           <li onClick={() => onClick("home")}>Home</li>
           <li onClick={() => onClick("menu")}>Menu</li>
