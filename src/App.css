@@ -96,7 +96,7 @@ body {
   grid-template-columns: 1fr 1fr;
   place-items: center;
   width: 1200px;
-  margin: 70px auto;
+  margin: 30px auto;
   padding: 25px;
   line-height: 35px;
 }
@@ -222,7 +222,8 @@ body {
   padding: 10px;
   border: none;
   border-radius: 3px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-family: sans-serif;
   display: block;
 }
@@ -274,7 +275,8 @@ body {
   cursor: pointer;
   border: none;
   background-color: black;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   color: rgb(255, 198, 93);
   font-size: 16px;
   padding: 10px;
@@ -294,7 +296,6 @@ body {
 .hamburger-menu {
   display: none;
   cursor: pointer;
-
 }
 
 .hamburger-menu .bar {
@@ -377,7 +378,6 @@ body {
   .menu-imgs {
     width: 250px;
     height: 250px;
-
   }
 
   .card-container {
@@ -390,9 +390,8 @@ body {
     width: 90%;
     padding: 0 20px 0 20px;
     margin: 70px auto 100px auto;
-
   }
-  
+
   .menu-names {
     font-size: 21px;
   }
@@ -405,34 +404,30 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-
-   .banner-content {
+  .banner-content {
     width: 100%;
-   } 
+  }
 
-   .home {
+  .home {
     width: 100%;
-   }
+  }
 
-   .about1 {
+  .about1 {
     width: 90%;
-   }
+  }
 
-   .about2 {
+  .about2 {
     width: 90%;
-
-   }
+  }
 
   .about1 h2 {
     width: 80%;
-
   }
 
   .about2 p {
     width: 90%;
   }
 }
-
 
 @media only screen and (max-width: 800px) {
   .hamburger-menu {
@@ -451,9 +446,8 @@ body {
     position: absolute;
   }
 
-
   .hamburger-menu .bar {
-    background-color: rgba(255, 255, 255, 0.863);  
+    background-color: rgba(255, 255, 255, 0.863);
   }
 
   .navbar ul {
@@ -501,6 +495,11 @@ body {
     top: 140px;
   }
 
+  .about1 img,
+  .about2 img {
+    width: 88%;
+  }
+
   .card {
     width: 90%;
   }
@@ -520,10 +519,7 @@ body {
     position: relative;
     bottom: 15px;
   }
-
 }
-
-
 
 @media only screen and (max-width: 600px) {
   .banner-content h1 {
@@ -533,8 +529,19 @@ body {
     top: 75px;
   }
 
-  .about2 img {
-    width: 85%;
+  .banner-buttons button {
+    height: 3rem;
+    width: 7rem;
+    font-size: 1em;
+  }
+
+  .about {
+    padding: 0;
+  }
+
+  .about1,
+  .about2 {
+    padding: 0;
   }
 
   .card-container {
@@ -563,9 +570,7 @@ body {
     width: 350px;
     left: 5px;
   }
-
 }
-
 
 @media only screen and (max-width: 400px) {
   .navbar img {
@@ -584,13 +589,20 @@ body {
     margin: auto;
   }
 
-  .about2  {
+  .about2 {
     margin: 0 auto;
   }
 
-  .about1, .about2 {
-    grid-template-rows: .8fr .8fr;
-    padding: 5px 5px 5px 5px;
+  .about1,
+  .about2 {
+    grid-template-rows: 0.8fr 0.8fr;
   }
+}
 
+@media (max-width: 370px) {
+  .hamburger-menu .bar {
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+  }
 }

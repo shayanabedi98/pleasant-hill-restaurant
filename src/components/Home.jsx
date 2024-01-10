@@ -5,7 +5,7 @@ import '../assets/banner.jpg'
 
 
 
-const Home = () => {
+const Home = ({ onClick }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -14,8 +14,8 @@ const Home = () => {
       <div className='banner-content'>
         <h1>Dine in luxury at The Pleasant Hill</h1>
         <div className='banner-buttons'>
-          <button>View Menu</button>
-          <button>Book Reservation</button>
+          <button onClick={onClick} value='menu'>View Menu</button>
+          <button onClick={onClick} value='contact'>Book Reservation</button>
         </div>
       </div>
       <div className="about">
