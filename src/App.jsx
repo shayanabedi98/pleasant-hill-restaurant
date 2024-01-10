@@ -20,10 +20,18 @@ function App() {
     })
   }
 
+  const renderDivButtons = (e) => {
+    setActiveDiv({
+      home: e.target.value === 'home',
+      menu: e.target.value === 'menu',
+      contact: e.target.value === 'contact'
+    })
+  }
+
   return (
     <>
       <Navbar onClick={renderDiv} />
-      {activeDiv.home && <Home />}
+      {activeDiv.home && <Home onClick={renderDivButtons} />}
       {activeDiv.menu && <Menu />}
       {activeDiv.contact && <Contact />}
     </>
